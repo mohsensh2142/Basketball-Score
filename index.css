@@ -1,0 +1,75 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: "Cursed Timer ULiL";
+}
+
+body {
+    margin: 0;
+    background-color: rgba(27, 36, 74, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: rgba(238, 238, 238, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.98px;
+    text-align: center;
+}
+
+.displayed-score {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.displayed-score p {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    display: flex;
+}
+
+.score-buttons {
+    display: flex;
+    margin-top: 26px;
+    max-width: 155px;
+}
+
+.score-button {
+    width: 45px;
+    height: 45px;
+    color: rgba(154, 171, 216, 1);
+    border: 2px solid rgba(154, 171, 216, 1);
+    font-family: 'Cursed Timer ULiL';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.score-button:not(:first-of-type) {
+    margin-left: 9px;
+}
+
+.score-button:hover {
+    cursor: pointer
+}
