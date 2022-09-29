@@ -73,3 +73,23 @@ h3 {
 .score-button:hover {
     cursor: pointer
 }
+
+
+.reset-score {
+    width: 80px;
+    height: 40px;
+    background-color: #F94F6D;
+    text-align: center;
+    margin: 60px auto;
+    padding: 2px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid rgba(225, 29, 72, 1);
+    display: flex;
+    align-items: center;
+}
+
+.reset-score h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
